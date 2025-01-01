@@ -1,0 +1,10 @@
+apt update && apt upgrade
+pkg update && pkg upgrade -y
+pkg install git 
+pkg install git -y
+pkg install lolcat
+git clone https://github.com/hackerxphantom/HXP-DUCKY
+cd $HOME
+cd HXP-DUCKY
+ls
+bash hxp_ducky.sh
